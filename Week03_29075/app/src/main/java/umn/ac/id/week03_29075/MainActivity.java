@@ -20,7 +20,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private DaftarKataAdapter mAdapter;
-    private final LinkedList<String> mDaftarkata = new LinkedList<>();
+    private final LinkedList<String> mDaftarKata = new LinkedList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,19 +32,19 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                LinkedList<Object> mDaftarKata = null;
+                //LinkedList<Object> mDaftarKata = null;
                 int jumlahKata = mDaftarKata.size();
                mDaftarKata.addLast("Kata " +(jumlahKata+1) +" telah ditambahkan");
                Objects.requireNonNull(mRecyclerView.getAdapter()).notifyItemInserted(jumlahKata);
                mRecyclerView.smoothScrollToPosition(jumlahKata);
             }
         });
-        for(int i = 1;i<50;i++){
-            mDaftarkata.add("Kata "+i);
+        for(int i = 1;i<21;i++){
+            mDaftarKata.add("Kata "+i);
         }
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
-        mAdapter= new DaftarKataAdapter(this,mDaftarkata);
+        mAdapter= new DaftarKataAdapter(this,mDaftarKata);
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
