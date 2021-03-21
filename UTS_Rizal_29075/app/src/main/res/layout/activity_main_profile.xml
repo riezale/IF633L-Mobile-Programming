@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ridler2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/header"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/BtnkeHome"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/abc_vector_test" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="138dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/joker"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:text="@string/nama"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nim"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
+                android:id="@+id/nim"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kelas"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:id="@+id/kelas"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Referensi:"
+                android:textColor="#ffffff"
+                android:id="@+id/referensi"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Youtube:"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:id="@+id/yutub"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Youtube1"
+                android:id="@+id/sumberyutup1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Youtube2"
+                android:id="@+id/sumberyutup2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Youtube3"
+                android:id="@+id/sumberyutup3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Youtube4"
+                android:id="@+id/sumberyutup4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nWebsite"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:id="@+id/website"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Website1"
+                android:id="@+id/sumberwebsite1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nTeman:"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Renaldo Valentdra \t\t\t\t\t\t\t\t\ 5. Jericho Kefas"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Nikolaus Hendrawan \t\t\t\t\t 6. Luthfi Zulfan"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Kevin Bobby \t\t\t\t\t\t\t\t\t\t\t\t\t 7. Adrian Kurnia "
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Leonagata "
+                android:textColor="#ffffff"/>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

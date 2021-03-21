@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">UTS_Rizal_29075</string>
+    <string name="Youtube1">
+        <a href="https://youtu.be/bgIUdb-7Rqo">Perpindahan Button</a>
+    </string>
+
+    <string name="Youtube2">
+    <a href="https://www.youtube.com/watch?v=lF5m4o_CuNg">Login Activity</a>
+    </string>
+
+    <string name="Youtube3">
+        <a href="https://www.youtube.com/watch?v=IauxP5xgu_s&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=2">Tutorial Pasang Lagu</a>
+    </string>
+
+    <string name="Youtube4">
+        <a href="https://www.youtube.com/watch?v=1xRC1DMWg9I">Tutorial Pop Up Button</a>
+    </string>
+
+    <string name="Website1">
+        <a href="https://www.androidrion.com/membuat-link-textview-di-android-studio/">Tutorial Hyperlink</a>
+    </string>
+
+
+    <string name="nama">Mochamad Rizal</string>
+    <string name="nim">00000029075</string>
+    <string name="kelas">CL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
