@@ -30,3 +30,4 @@ public class MainActivity extends AppCompatActivity {
         tvDaftarSensor.setText(sensorText);
     }
 }
+//
